@@ -1,0 +1,17 @@
+.details img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product{
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 1px 3px 10px 0px #95a0a7;
+
+}
+.btn{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: #0cc9e2;
+    border-radius: 10px;
+}

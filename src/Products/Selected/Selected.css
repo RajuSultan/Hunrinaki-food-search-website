@@ -1,0 +1,28 @@
+.main{
+    position: sticky;
+  top: 0;
+  text-align: center;
+}
+.main hr{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  border: 2px solid black;
+}
+h2{
+  margin-top: 0;
+}
+.btn-1{
+  padding: 10px 40px;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.btn-2{
+  padding: 10px 40px;
+  background-color: orangered;
+  border: none;
+  border-radius: 10px;
+}

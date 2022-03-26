@@ -1,6 +1,11 @@
 .App {
+  /* text-align: center; */
+}
+.main-Box h1{
   text-align: center;
 }
+
+
 
 .App-logo {
   height: 40vmin;
