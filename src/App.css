@@ -1,7 +1,8 @@
-.App {
-  /* text-align: center; */
-}
 .main-Box h1{
+  text-align: center;
+}
+.best-4{
+  color: rgb(176, 192, 103);
   text-align: center;
 }
 .question {
@@ -11,7 +12,7 @@
 
 .App-logo {
   height: 40vmin;
-  
+
   pointer-events: none;
 }
 

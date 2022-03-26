@@ -1,7 +1,12 @@
 .main{
-    position: sticky;
+  position: sticky;
   top: 0;
   text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 1px 3px 10px 0px #95a0a7;
+  background: #0cc9e2;
+
 }
 .main hr{
   margin-left: 10px;
@@ -22,7 +27,8 @@ h2{
 }
 .btn-2{
   padding: 10px 40px;
-  background-color: orangered;
+  background-color: orange;
   border: none;
   border-radius: 10px;
+  margin-bottom: 30px;
 }

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Products from './Products/Products';
 
@@ -6,6 +5,7 @@ function App() {
   return (
     <div className="main-Box">
       <h1>Hunrinaki</h1>
+      <p className='best-4'>Choose Your Best 4</p>
       <Products></Products>
       <div className='question'>
         <h1>Question</h1>

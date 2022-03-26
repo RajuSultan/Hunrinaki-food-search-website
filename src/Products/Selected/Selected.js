@@ -20,7 +20,7 @@ const Selected = (props) => {
         }
     };
     function deleteItem(data) {
-        newItems = newItems.filter(person => person.name != data.name);
+        newItems = newItems.filter(person => person.name !== data.name);
         document.getElementById(data.id).style.display = "none";
     };
 
