@@ -4,25 +4,7 @@ import './Selected.css'
 const Selected = (props) => {
     let items = props.choosen;
     let newItems = [...items];
-    // document.getElementById("dis").style.display = "block";
-    // document.getElementById("dis-1").style.display = "block";
-
-
-
     const [bestOne, setBestOne] = useState([]);
-    // function clear() {
-    //     newItems = [];
-    //     console.log(newItems);
-    //     document.getElementById("dis").style.display = "none";
-    // document.getElementById("dis-1").style.display = "none";
-
-    // }
-    // if (!newItems) {
-    //     return Selected;
-
-    // }
-
-
     function random(items) {
         if (items.length === 0) {
             alert("You don't have seleted item, add something");
@@ -33,13 +15,7 @@ const Selected = (props) => {
             document.getElementById("dis-1").style.display = "block";
 
         }
-
-        // document.getElementById("dis").style.display = "block";
-        // document.getElementById("dis-1").style.display = "block";
     }
-
-
-
     return (
         <div className='main'>
             <h1>Selected Items</h1>

@@ -6,7 +6,7 @@ import './Products.css'
 const Products = () => {
     const [items, setItems] = useState([]);
     let [choosen, setChosen] = useState([]);
-    // document.getElementById("dis-1").style.display = "none";
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -20,9 +20,16 @@ const Products = () => {
 
     }
     function select(product) {
-
+        const id = product.id;
+        const ids = choosen.find(item => item.id === id);
         let newProduct = [...choosen, product];
-        setChosen(newProduct);
+        if (ids) {
+
+        } else {
+            if (newProduct.length <= 4) {
+                setChosen(newProduct);
+            }
+        }
     }
 
 
